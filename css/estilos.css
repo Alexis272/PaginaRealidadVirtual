@@ -52,7 +52,7 @@ header nav a.activo {
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/MZPrincipal.jpg);
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../video/PealtrexLogotipos.gif);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 3.12em;
@@ -95,35 +95,35 @@ header nav a.activo {
 }
 
 
-/* ---- Video Bosque ----- */
-.video-bosque {
+/* ---- Video uno ----- */
+.video-uno {
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/bosque.jfif);
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/GifVid5.gif);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 3.12em;
 	display: flex;
 	align-items: end;
 }
-.video-bosque .contenedor {
+.video-uno .contenedor {
 	margin: 0 auto;
 	margin-bottom: 6.25em;
 }
-.video-bosque .titulo {
+.video-uno .titulo {
 	font-weight: 600;
 	font-size: 3.12em;
 	margin-bottom: 0.4em;
 }
-.video-bosque .descripcion {
+.video-uno .descripcion {
 	font-weight: normal;
 	font-size: 1em;
 	line-height: 1.75em;
 	max-width: 50%;
 	margin-bottom: 1.25em;
 }
-.video-bosque .boton {
+.video-uno .boton {
 	background: rgba(0,0,0, 0.5);
 	border: none;
 	border-radius: 0.31em;
@@ -134,15 +134,342 @@ header nav a.activo {
 	transition: .3s ease all;
 	font-size: 1.12em;
 }
-.video-bosque .boton:hover {
+.video-uno .boton:hover {
 	background: #fff;
 	color: #000;
 }
-.video-bosque .boton i {
+.video-uno .boton i {
 	margin-right: 1.25em;
 }
 
+/* --- Video Dos ----*/
+.video-dos{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/GifVid6.gif);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-dos .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-dos .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-dos .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-dos .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-dos .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-dos .boton i {
+	margin-right: 1.25em;
+}
 
+/* --- Video Tres ----*/
+.video-tres{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/GifVid1.gif);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-tres .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-tres .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-tres .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-tres .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-tres .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-tres .boton i {
+	margin-right: 1.25em;
+}
+
+/* --- Video Cuatro ----*/
+.video-cuatro{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/GifVid2.gif);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-cuatro .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-cuatro .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-cuatro .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-cuatro .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-cuatro .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-cuatro .boton i {
+	margin-right: 1.25em;
+}
+
+/* --- Video Cinco ----*/
+.video-cinco{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/GifVid3.gif);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-cinco .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-cinco .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-cinco .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-cinco .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-cinco .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-cinco .boton i {
+	margin-right: 1.25em;
+}
+
+/* --- Video Seis ----*/
+.video-seis{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/GifVid7.gif);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-seis .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-seis .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-seis .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-seis .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-seis .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-seis .boton i {
+	margin-right: 1.25em;
+}
+
+/* --- Video Siete ----*/
+.video-siete{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/SistemaSolar.png);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-siete .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-siete .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-siete .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-siete .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-siete .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-siete .boton i {
+	margin-right: 1.25em;
+}
+
+/* --- Video Ocho ----*/
+.video-ocho{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/MontañaRusa.png);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-ocho .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-ocho .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-ocho .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-ocho .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-ocho .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-ocho .boton i {
+	margin-right: 1.25em;
+}
 
 
 /* ---- Contenedor Titulos y Controles ----*/
