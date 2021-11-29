@@ -10,88 +10,33 @@
 <body>
 	<header>
 		<div class="contenedor">
-			<h2 class="logotipo">PEALTREX</h2>
-			<nav>
-				<a href="index.html" class="activo">Inicio</a>
-				<a href="#">Mi Perfil</a>
-				<a href="#">Mi lista</a>
-			</nav>
+			<h2 class="logotipo">INICIO DE SESIÓN</h2>
+
 		</div>
 	</header>
 
-	<main>
-		<div class="video-principal">
-			<div class="contenedor">
-				<h3 class="titulo">Recorrido Morelos,Zac</h3>
-				<p class="descripcion">
-					Se mostrara un recorrido en Morelos Zacatecas, donde se da a conocer el lugar y sus paisajes.
-				</p>
-				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
-				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
-			</div>
-		</div>
-		<div class="videos-recomendados contenedor">
-			<div class="contenedor-titulo-controles">
-				<h3>videos recomendados</h3>
-				<div class="indicadores"></div>
-			</div>
+<body>
+<SCRIPT  language=JavaScript> 
+function go(){
 
-			<div class="contenedor-principal">
-				 <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+if (document.form.password.value=='123','111' && document.form.login.value=='Alexis272','Juanma'){ 
+        document.form.submit(); 
+    } 
+    else{ 
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+    } 
+} 
+</SCRIPT> 
+<FORM name=form action="inicio.html">
+  
+   
+<P style="color:#00F5FF";>Usuario:    <INPUT type=text name=login> 
+<P style="color:#00F5FF";>Contraseña: <INPUT type=password name=password> 
+<INPUT onclick=go() type=button value=Acceder>
+    <nav>
+        <a ><img src="Video/PealtrexLogotipos.gif" ></a>
+    </nav>
 
-				 <div class="contenedor-carousel">
-					 <div class="carousel">
-					 	<div class="video">
-							<a href="paginas/Bosque.html"><img src="img/bosque.jfif" alt="Recorrido en un bosque"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/campo.jfif" alt="Recorrido en un campo"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/cascada,png.jfif" alt="Recorrido en cascada"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/lluvia.jfif" alt="Recorrido en un lluvia"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/playa.jfif" alt="Recorrido en un playa"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/puebla.jfif" alt="Recorrido en un puebla"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/pueblo.jfif" alt="Recorrido en un pueblo"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/bosque.jfif" alt="Recorrido en un bosque"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/campo.jfif" alt="Recorrido en un campo"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/cascada,png.jfif" alt="Recorrido en cascada"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/lluvia.jfif" alt="Recorrido en un lluvia"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/playa.jfif" alt="Recorrido en un playa"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/puebla.jfif" alt="Recorrido en un puebla"></a>
-						 </div>
-						 <div class="video">
-							<a href="#"><img src="img/pueblo.jfif" alt="Recorrido en un pueblo"></a>
-						 </div>
-					</div>
-				</div>
-
-				 <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
-			</div>
-		</div>
-	</main>
-	
-	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-	<script src="js/main.js"></script>
+</FORM> 
 </body>
 </html>
